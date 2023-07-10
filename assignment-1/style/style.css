@@ -1,3 +1,66 @@
 .head{
-    text-align: left;
+     display: flex;
+     flex-direction: column;
+     font-size: 55px;
+     color: rgb(41, 38, 38);
+     font-family: Arial, Helvetica, sans-serif;
+     margin-left: 50px;
+     line-height: 58px;
+}
+.pp{
+    font-size: 12px;
+    margin-bottom: 25px;
+    margin-left: 50px;
+    line-height: 20px;
+    color: rgb(146, 125, 125);
+
+    
+}
+.btm-color{
+    color: white;
+    border: none;
+    font-size: 10px;
+    padding: 13px 22px;
+    border-radius: 5px;
+    background-color: rgb(223, 83, 37);
+    margin-left: 50px;
+    font-size: 13px;
+}
+.flex{
+    padding: 60px 60px;
+    
+    
+}
+nav{
+    
+    
+}
+.head-pic{
+    display: flex;
+    background-color: bisque;
+   
+    
+}
+.pic{
+    padding-right: 0px;
+    width: 380px;
+    height: 480px;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+.h3{
+    text-align: center;
+    margin-top: 100px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(22, 22, 22);
+}
+.pp2{
+    color: rgba(39, 39, 39, 0.60);
+text-align: center;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-size: 12px;
+font-style: normal;
+font-weight: 200;
+line-height: 20px;
 }
