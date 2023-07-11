@@ -1,46 +1,43 @@
-.head{
-     display: flex;
-     flex-direction: column;
-     font-size: 55px;
-     color: rgb(41, 38, 38);
-     font-family: Arial, Helvetica, sans-serif;
-     margin-left: 50px;
-     line-height: 58px;
-}
-.pp{
-    font-size: 12px;
-    margin-bottom: 25px;
-    margin-left: 50px;
-    line-height: 20px;
-    color: rgb(146, 125, 125);
-
-    
-}
-.btm-color{
-    color: white;
-    border: none;
-    font-size: 10px;
-    padding: 13px 22px;
-    border-radius: 5px;
-    background-color: rgb(223, 83, 37);
-    margin-left: 50px;
-    font-size: 13px;
-}
-.flex{
-    padding: 60px 60px;
-    
-    
-}
-nav{
-    
-    
-}
-.head-pic{
+.banner{
     display: flex;
-    background-color: bisque;
-   
-    
+    height: 500px;
+    align-items: center;
+    justify-content: space-between;
+    background: rgba(229, 84, 115, 0.10);
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: normal;
 }
+.bbody{
+    margin-left: 10%;
+}
+#h{
+    font-size: 60px;
+    font-weight: 770;
+    color: #272727;
+}
+#ph{
+    font-size: small;
+    padding: 0px 100px 0px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 20px;
+    color: rgba(39, 39, 39, 0.60);
+
+}
+.btn{
+    border: none;
+    padding: 18px 20px;
+    background-color: #E55473;
+    border-radius: 8px;
+    color: #FFF;
+    font-size: larger;
+}
+#p1{
+    height: 470px;
+    width: 400px;
+    margin-right: 10%;
+    padding: 30px 10px 0px 60px;
+    
+}   
 .pic{
     padding-right: 0px;
     width: 380px;
@@ -50,17 +47,186 @@ nav{
 }
 .h3{
     text-align: center;
-    margin-top: 100px;
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(22, 22, 22);
+    padding: 80px 100px 0px 0px;
 }
 .pp2{
     color: rgba(39, 39, 39, 0.60);
 text-align: center;
-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-family: Arial, Helvetica, sans-serif;
 font-size: 12px;
 font-style: normal;
 font-weight: 200;
 line-height: 20px;
+padding-bottom: 50px;
 }
+ul >li{
+    display: flex;
+    display: inline-flex;
+    text-align: center;
+    padding: 0px 30px;
+    margin-left: 90px;
+    margin-right: 90px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    text-decoration-line: underline;
+   
+}
+
+.div_flower{
+    background: #FFF;
+    width: 100%;
+    height: 500px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#div_1st{
+    margin-left: 100px;
+    padding: 100px 70px 0px 70px;
+    width: 200px;
+    height: 300px;
+    background: rgba(167, 33, 98, 0.15);
+}
+
+#div_2nd{
+    margin-left: 10px;
+    padding: 80px 70px 20px 70px;
+    width: 200px;
+    height: 300px;
+    background: rgba(5, 151, 160, 0.15);
+}
+
+#div_3rd{
+    margin-right: 100px;
+    margin-left: 10px;
+    padding: 100px 70px 0px 70px;
+    width: 200px;
+    height: 300px;
+    background: rgba(71, 125, 17, 0.15);
+}
+
+.c1{
+    width: 464px;
+    height: 538px;
+    flex-shrink: 0;
+    border-radius: 300px 300px 0px 0px;
+   
+}
+#hb2{
+    font-size: 30px;
+    font-weight: 770;
+    color: #272727;
+    margin-top: 200px;
+    align-content: center;
+    text-align: center
+    
+}
+#ph2{
+    font-size: small;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 20px;
+    color: rgba(39, 39, 39, 0.60);
+    padding-right: 10%;
+    padding-left: 10%;
+
+}
+.btn2{
+    border: none;
+    background-color: #E55473;
+    border-radius: 8px;
+    color: #FFF;
+    font-size: larger;
+    margin-left: 40%;
+    padding: 18px 20px;
+}
+.mid{
+    display: flex;
+    height: 500px;
+    background: rgba(229, 84, 115, 0.10);
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: normal;
+    margin-top: 50px;
+}
+.c2{
+    width: 464px;
+    height: 538px;
+    flex-shrink: 0;
+   
+}
+.h4{
+    text-align: center;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: #272727;
+    padding: 20px 50px 0px 0px;
+}
+.div_flower2{
+    padding: 5px;
+    width: 250px;
+    height: 250px;
+    align-items: center;
+}
+.fl2{
+    margin: 0px 80px 0px 100px;
+}
+
+.last{
+    margin: 60px 100px 0px 100px;
+    text-align: center;
+    padding: 100px 100px 0px 100px;
+    height: 300px;
+    align-items: center;
+}
+#foo{
+    background-image: url('../flower-shop-assignment-main/Rectangle\ 9.png');
+    margin: 60px 100px 0px 100px;
+}
+.box{
+    width: 450px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+}
+.btnl{
+    border: none;
+    padding: 13px 20px;
+    background-color: #E55473;
+    border-radius: 8px;
+    margin-left: 5px;
+}
+.foot{
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 900;
+    margin-top: 100px;
+    
+}
+.venis{
+    margin: 60px 100px 0px 100px;
+    padding-top: 1px;
+}
+#fo{
+    color: rgba(245, 235, 235, 0.9);
+text-align: center;
+font-size: 9px;
+font-weight: 400;
+line-height: 20px;
+}
+#finish{
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-size: 10px;
+    font-weight: 200;
+    line-height: normal;
+}
+.bac{
+    background-color: black;
+    height: 300px;
+    margin: 60px 100px 0px 100px;
+}
+
